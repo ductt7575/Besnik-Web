@@ -51,15 +51,18 @@ a {
     overflow: hidden;
 }
 
-/* ==================== Header ==================== */
-.header {
+/* ==================== Fixed-Header ==================== */
+
+.fixed-header {
     background: #E6F0FF;
-    height: 100vh;
-    position: relative;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
 }
 
 .navbar {
-    padding-top: 38px;
+    padding: 12px 0;
     display: flex;
     align-items: center;
 }
@@ -100,6 +103,14 @@ a {
 }
 
 /* ==================== HERO ==================== */
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    background: #E6F0FF;
+    height: 100vh;
+    position: relative;
+}
+
 .hero {
     margin-top: 130px;
 }
