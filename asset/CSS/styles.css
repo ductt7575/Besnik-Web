@@ -597,7 +597,7 @@ a {
 }
 
 .footer .top-row {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .heading {
